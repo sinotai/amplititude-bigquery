@@ -8,11 +8,11 @@ from datetime import datetime, timedelta
 from google.cloud import bigquery, storage
 from os import walk
 
-ACCOUNT_ID = ''
-API_KEY = ''
-API_SECRET = ''
-PROJECT_ID = ''
-CLOUD_STORAGE_BUCKET = ''
+ACCOUNT_ID = 'asiayo-production'
+API_KEY = '5f345873a241e205e52d822dec30db24'
+API_SECRET = '826580c665a361c50c6bcdc123d042c1'
+PROJECT_ID = '135432'
+CLOUD_STORAGE_BUCKET = 'https://console.cloud.google.com/storage/browser/jeff-testing/import/?project=datapipeline-172610'
 PROPERTIES = ["event_properties", "data", "groups", "group_properties",
               "user_properties"]
 
