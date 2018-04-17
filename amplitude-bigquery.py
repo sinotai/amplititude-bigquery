@@ -200,8 +200,8 @@ for file in file_list('.gz'):
 
     # Import data from Google Cloud Storage into Google BigQuery
     dataset_ref = bigquery_client.dataset('amplitude')
-    load_into_bigquery(file, 'events$' + YESTERDAY)
-    load_into_bigquery("properties_" + file, 'events_properties')
+    load_into_bigquery(file, 'test_event$' + YESTERDAY)
+    load_into_bigquery("properties_" + file, 'test_emp')
 
     print("Imported: {file}".format(file=file_json(file)))
 
