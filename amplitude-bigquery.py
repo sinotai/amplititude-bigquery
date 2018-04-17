@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 from google.cloud import bigquery, storage
 from os import walk
 
-ACCOUNT_ID = 'asiayo-production'
+ACCOUNT_ID = '5737'
 API_KEY = '5f345873a241e205e52d822dec30db24'
 API_SECRET = '826580c665a361c50c6bcdc123d042c1'
 PROJECT_ID = '135432'
